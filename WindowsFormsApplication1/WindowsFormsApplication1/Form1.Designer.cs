@@ -57,6 +57,7 @@
             this.buttonOk.TabIndex = 2;
             this.buttonOk.Text = "Ok";
             this.buttonOk.UseVisualStyleBackColor = true;
+            this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
             // Form1
             // 
@@ -67,7 +68,7 @@
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.labelName);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Testing";
             this.ResumeLayout(false);
             this.PerformLayout();
 
