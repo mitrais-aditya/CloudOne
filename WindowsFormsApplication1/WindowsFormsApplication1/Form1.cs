@@ -15,6 +15,8 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+
+            this.textBoxName.Text = "Good";
         }
     }
 }
